@@ -1,0 +1,58 @@
+.oneCheckList {
+    height: 100px;
+    background-color: white;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    gap: 10px;
+    padding-right: 20px;
+    cursor: pointer;
+    flex: 0 0 calc(33.33% - 27px);
+}
+
+.oneCheckListClicked {
+    background-color: rgb(58, 179, 58);
+    color: white;
+}
+
+.oneCheckList span {
+    font-size: 18px;
+    text-align: end;
+}
+
+.oneCheckList__chackBox {
+    width: 25px;
+    height: 25px;
+    border: 1px rgb(212, 212, 212) solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    color: white;
+}
+
+.oneCheckList__chackBoxChecked {
+    color: rgb(58, 179, 58);
+}
+
+
+
+
+@media only screen and (max-width: 1000px) {
+    .oneCheckList {
+        flex: 0 0 calc(50% - 27px);
+    }
+}
+
+@media only screen and (max-width: 670px) {
+    .oneCheckList {
+        flex: 0 0 calc(100% - 27px);
+    }
+}
+
+@media only screen and (max-width: 420px) {
+    .oneCheckList span {
+        font-size: 15px;
+        text-align: end;
+    }
+}

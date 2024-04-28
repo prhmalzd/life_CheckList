@@ -1,0 +1,9 @@
+.checkListContainer {
+    width: 65vw;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row-reverse;
+    gap: 10px;
+    flex-basis: auto;
+    
+}

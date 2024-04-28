@@ -1,0 +1,41 @@
+.progress {
+    height: 150px;
+    width: 65vw;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color:white;
+    gap: 10px;
+}
+
+.progress__title {
+    color: black;
+    font-weight: 900;
+    font-size: 30px;
+    word-spacing: 5px;
+    text-align: center;
+}
+
+.progress__barContainer {
+    height: 30px;
+    background-color: #eeeeee;
+    border-radius: 10px;
+    width: 50vw;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    overflow: hidden;
+}
+.progress__barContainer__bar {
+    height: 30px;
+    background-color: rgb(35, 165, 35);
+}
+
+
+@media only screen and (max-width: 1000px) {
+    .progress__title {
+        font-size: 20px;
+    }
+}
